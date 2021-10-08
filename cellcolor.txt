@@ -25,5 +25,5 @@ bld = CLng("&H" & blh)
         cell.Interior.COLOR = rgb(red, grd, bld)
         
     Next cell
-    MsgBox count & " item(s) selected"
+    'MsgBox count & " item(s) selected"
 End Sub
