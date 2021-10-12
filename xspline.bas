@@ -1,6 +1,5 @@
-'Attribute VB_Name = "XSPLINE"
 'XSPLINE works like SPLINE but with different input order: XSPLINE(year, yearrange, valuerange) . Output: value. Same order as XLOOKUP
-'SPLINE found on web. Unknown origin (from the web).
+'SPLINE found on the web. Unknown origin.
 
 Function XSPLINE(periodcol As Range, ratecol As Range, x As Range)
 
