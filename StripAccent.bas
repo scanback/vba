@@ -1,9 +1,11 @@
-Attribute VB_Name = "Module1"
+'Attribute VB_Name = "Module1"
+'Found on the web. A few letters added. Some still missing or don't work.
+
 Function StripAccent(thestring As String)
 Dim A As String * 1
 Dim B As String * 1
 Dim i As Integer
-Const AccChars = "ŠšŸÀÁÂÃÄÅÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖÙÚÛÜİàáâãäåçèéêëìíîïğñòóôõöùúûüıÿ"
+Const AccChars = "Å Å½Å¡Å¾Å¸Ã€ÃÃ‚ÃƒÃ„Ã…Ã‡ÃˆÃ‰ÃŠÃ‹ÃŒÃÃÃÃÃ‘Ã’Ã“Ã”Ã•Ã–Ã™ÃšÃ›ÃœÃÃ Ã¡Ã¢Ã£Ã¤Ã¥Ã§Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã°Ã±Ã²Ã³Ã´ÃµÃ¶Ã¹ÃºÃ»Ã¼Ã½Ã¿"
 Const RegChars = "SZszYAAAAAACEEEEIIIIDNOOOOOUUUUYaaaaaaceeeeiiiidnooooouuuuyy"
 For i = 1 To Len(AccChars)
 A = Mid(AccChars, i, 1)
