@@ -1,5 +1,5 @@
 'This Excel VBA sub fills the highlighted cells with the RGB color code in each cell, expressed in hex (#xxyyzz)
-' The main use is to pre-display shades of color for shapefiles in Excel
+' The main use is to pre-display shades of color for shapefiles
 
 Sub CellColor()
     Dim cell As Object
