@@ -1,7 +1,7 @@
-'XSPLINE works like SPLINE but with different input order: XSPLINE(year, yearrange, valuerange) . Output: value. Same order as XLOOKUP
-'SPLINE found on the web. Unknown origin.
+'XSPLINE works like SPLINE but with different input order: XSPLINE(x, xrange, yrange) . Output: value. Same order as XLOOKUP
+'SPLINE found on the web. https://www.business-spreadsheets.com/forum.asp?t=120
 
-Function XSPLINE(periodcol As Range, ratecol As Range, x As Range)
+Function XSPLINE(x As Range, periodcol As Range, ratecol As Range)
 
 Dim period_count As Integer
 Dim rate_count As Integer
@@ -13,7 +13,7 @@ If period_count = 1 Then period_count = periodcol.Columns.Count
 If rate_count = 1 Then rate_count = ratecol.Columns.Count
 
 If period_count <> rate_count Then
-    SPLINE = "Error: Range counts do not match"
+    XSPLINE = "Error: Range counts do not match"
     GoTo endnow
 End If
  
