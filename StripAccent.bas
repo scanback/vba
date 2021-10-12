@@ -1,5 +1,4 @@
-'Attribute VB_Name = "Module1"
-'Found on the web. A few letters added. Some still missing or don't work.
+'Found on the web. A few diacritical letters added. Some still missing or don't work.
 
 Function StripAccent(thestring As String)
 Dim A As String * 1
