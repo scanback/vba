@@ -1,5 +1,5 @@
 Attribute VB_Name = "ShiftLongFn"
-'Found on the web. A few diacritical letters added. Some still missing or don't work.
+'VBA function to shift longitudes in conformance with Canback Map Projection
 
 Function ShiftLong(shift As Integer)
 Dim x As Integer
