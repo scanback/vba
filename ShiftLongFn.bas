@@ -17,7 +17,7 @@ If x = 4 Then ShiftLong = -20 Else
 If x = 5 Then ShiftLong = -70 Else
 If x = 6 Then ShiftLong = 35 Else
 If x = 7 Then ShiftLong = -33 Else
-If x = 8 Then ShiftLong = -6.6 'Nuuk
+If x = 8 Then ShiftLong = -6.6
 
 endnow:
 End Function
