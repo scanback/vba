@@ -3,7 +3,7 @@ Attribute VB_Name = "ShiftLongFn"
 
 Function ShiftLong(shift As Integer)
 
-  If shift < 0 Or shift > 8 Then
+If shift < 0 Or shift > 8 Then
 ShiftLong = "Shift out of range"
 GoTo endnow
 End If
