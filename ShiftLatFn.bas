@@ -17,7 +17,7 @@ If x = 4 Then ShiftLat = -5 Else
 If x = 5 Then ShiftLat = 0 Else
 If x = 6 Then ShiftLat = 0 Else
 If x = 7 Then ShiftLat = 0 Else
-If x = 8 Then ShiftLat = -2.2 'Nuuk
+If x = 8 Then ShiftLat = -2.2
 
 endnow:
 End Function
