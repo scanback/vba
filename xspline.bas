@@ -24,8 +24,7 @@ Dim c As Integer
 
 For c = 1 To period_count
 xin(c) = periodcol(c)
-'If logarithm = 0 Then yin(c) = ratecol(c) Else yin(c) = Log(ratecol(c))
-
+yin(c) = ratecol(c)
 Next c
 
 Dim n As Integer
